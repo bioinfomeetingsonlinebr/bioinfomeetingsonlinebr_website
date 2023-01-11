@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+    color: #594786;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* Formatação de imagem com legendas */
+/*figure.foto-legenda {
+    position: center;
+    border: 1px solid blueviolet;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+    width: 50%;
+    height: 50%;
+    position: center;
+}
+
+figure.foto-legenda figcaption {
+    position: absolute; /* dentro do contanier, que é a borda branca*/
+    /*top: 0px;
+    background-color: rgba(255,255,255,0);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    box-sizing: border-box;
+}*/
+
+
+/* Formatação do Menu*/
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 700px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #594786;
+    padding: 10px;
+    margin: 2px;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+/*Formatação Mylenna*/
+h1{
+    color: #594786;
+    font-size: 35px;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+h2{
+    color: #594786;
+    font-size: 20px;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+h3{
+    color: #594786;
+    font-size: 20px;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+.titulocentro{
+    background-color: #120434;
+    top: 77px;
+    position: relative;
+    padding-left: 24px;
+    margin-left: 60px;
+    width: 51.9%;
+    height: 34px;
+    font-family: Montserrat;
+    border-radius: 20px;
+}
+
+.conteudo2{
+    background-color: #230C5B;
+    padding: 25px;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 50%;
+    font-family: Montserrat;
+    text-align: justify;
+    border-radius: 20px;
+}
